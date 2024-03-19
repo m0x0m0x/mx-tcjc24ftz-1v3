@@ -18,3 +18,4 @@ const poll = {
 };
 paraText("Printing the main poll object");
 console.log(poll);
+console.log('he')
