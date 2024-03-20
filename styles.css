@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  transition: all 100ms;
+  transition: all 200ms;
 }
 
 body {
@@ -50,14 +50,18 @@ main {
 }
 
 h1 {
-  /* font-family: "Bungee Spice"; */
+  font-family: "Bungee Spice";
   background-image: url("https://i.giphy.com/UYgkFrfCaPJEk.webp");
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3rem;
   background-color: #020617;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  text-align: center;
+}
+h1:hover {
+  font-size: 2rem;
 }
 
 h2 {
