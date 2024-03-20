@@ -20,3 +20,5 @@ paraText("Printing the main poll object");
 console.log(poll);
 console.log("he");
 console.log("yayay");
+
+console.log("hey");
