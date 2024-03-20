@@ -1,6 +1,6 @@
 "use strict";
 /* 
-138: Closures
+138: Closures - 139: Closures 
 */
 // === import zone ===
 import { mainHead, subHead, paraText } from "../../utils/text.js";
@@ -26,3 +26,7 @@ paraText("Calling Function");
 booker();
 booker();
 booker();
+
+// Getting function details
+console.dir(secureBooking);
+console.dir(booker);
