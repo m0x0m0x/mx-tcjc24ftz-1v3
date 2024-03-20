@@ -21,25 +21,11 @@ const poll = {
         `${this.questions}\n${this.options.join("\n")}\n(Write Option Number)`
       )
     );
-    console.log(`ChoiceRape: ${choiceID(answer)}`);
+
+    typeof answer === "number" &&
+      answer < this.answers.length &&
+      this.answers[answer]++;
   },
 };
-poll.registerNewAnswer();
 
-// Writing your own functiont that will be called as a template literal
-function choiceID(number) {
-  switch (number) {
-    case 0:
-      console.log("0: Javascript");
-      break;
-    case 1:
-      console.log("1: Python");
-      break;
-    case 2:
-      console.log("2: Rust");
-      break;
-    case 3:
-      console.log("3: C++");
-      break;
-  }
-}
+poll.registerNewAnswer();
